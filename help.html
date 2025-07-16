@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id = "page-title-7">Ajutor</title>
+    <script src="js/localization.js" defer></script>
+    <link rel="stylesheet" href="css/clrimpreuna.css">
+</head>
+<body>
+    <header>
+   
+    <nav class="navbar">
+        <div class="branding">
+            <a href="HomePage.html"><img id="logo" src="images/logo2.png" alt="logo"></a>
+        </div>
+        <div class="navbar-menu">
+            <ul>
+                <li><a href="HomePage.html" id="nav-home">Acasă</a></li>
+                <li><a href="educational.html" id="nav-did-you-know">Știai că?</a></li>
+                <li><a href="galerie.html" id="nav-gallery">Galerie</a></li>
+                <li><a href="Programari.php" id="nav-schedule">Programează-te</a></li>
+                <li><a href="contact.html" id="nav-contact">Contactează-ne!</a></li>
+                <li><a href="LogIn.php" id="nav-login">Intră în cont</a></li>
+                <li><a href="sign_up.php" id="nav-signup">Fă-ți un cont</a></li>
+                <li><a href="help.html" id="nav-help">Ajutor</a></li>
+            </ul>
+        </div>
+        <select id="language-selector">
+            <option value="ro">Română</option>
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+        </select>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+    </nav>
+</header>
+    <div class="my-div">
+        <h2 id = "FAQ">FAQ - Întrebări frecvente</h2>
+        <div class="faq">
+            <h3 id="faq_q1">1. Cum îmi pot crea un cont?</h3>
+            <p id="faq_a1">
+                Pentru a crea un cont, accesează pagina <a href="sign_up.php" id="faq_link_signup">Sign Up</a> și completează formularul cu informațiile tale. 
+                Apasă pe butonul "Înregistrează-te" pentru a finaliza procesul.
+            </p>
+        
+            <h3 id="faq_q2">2. Cum mă pot loga în aplicație?</h3>
+            <p id="faq_a2">
+                Accesează pagina <a href="LogIn.php" id="faq_link_login">Log In</a>, introduce numele de utilizator și parola pe care le-ai creat la înregistrare. 
+                Dacă informațiile sunt corecte, vei fi redirecționat către pagina principală.
+            </p>
+        
+            <h3 id="faq_q3">3. Cum pot face o programare?</h3>
+            <p id="faq_a3">
+                După ce te-ai logat, mergi pe pagina <a href="Programari.php" id="faq_link_schedule">Programează-te</a>. 
+                Completează datele necesare, selectează calul dorit (opțiunile primite vor fi caii care sunt adecvați nivelului tău de competență) și apasă pe butonul "Programează-te".
+            </p>
+        
+            <h3 id="faq_q4">4. Ce fac dacă am uitat parola?</h3>
+            <p id="faq_a4">
+                Momentan, funcția de resetare a parolei nu este implementată. Dacă ai uitat parola, contactează echipa de suport pentru ajutor.
+            </p>
+        </div>
+        
+        <h2 id="contact_title">Contact</h2>
+        <p id="contact_desc">
+            Dacă ai alte întrebări sau întâmpini probleme, ne poți contacta folosind informațiile de mai jos:
+        </p>
+        <ul>
+            <li id="contact_email">Email: suport@calarimimpreuna.ro</li>
+            <li id="contact_phone">Telefon: +40 123 456 789</li>
+            <li id="contact_address">Adresă: Str. Viilor 123, Cluj-Napoca, România</li>
+        </ul>
+        
+        <h2 id="guide_title">Ghid de utilizare</h2>
+        <p id="guide_step1"><strong>Pasul 1:</strong> Creează-ți un cont folosind pagina de <a href="sign_up.php" id="guide_link_signup">Sign Up</a>.</p>
+        <p id="guide_step2"><strong>Pasul 2:</strong> Loghează-te în aplicație prin pagina <a href="LogIn.php" id="guide_link_login">Log In</a>.</p>
+        <p id="guide_step3"><strong>Pasul 3:</strong> Vizitează pagina <a href="Programari.php" id="guide_link_schedule">Programează-te</a> pentru a face o programare.</p>
+        <p id="guide_step4"><strong>Pasul 4:</strong> Consultă secțiunea "Știai că?" pentru a afla mai multe informații interesante despre echitație.</p>
+        
+        <h2 id="about_title">Despre aplicație</h2>
+        <p id="about_desc">
+            Aplicația "Călărim Împreună" îți oferă o platformă prietenoasă pentru a te programa la sesiuni de echitație, 
+            selectând caii și orele care ți se potrivesc. Cu ajutorul nostru, te vei bucura de o experiență plăcută și relaxantă în mijlocul naturii.
+        </p>
+    <footer>
+        <div class="copyright">
+            <h3 id="footer-title">Centru de călărie | Călărim împreună</h3>
+            <p id="footer-copyright">Copyright © All Rights Reserved</p>
+        </div>
+        <div>
+            <ul class="social-networks">
+                <li><a href="https://facebook.com" target="_blank" rel="noopener" id="social-facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com" target="_blank" rel="noopener" id="social-twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank" rel="noopener" id="social-youtube"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" id="social-instagram"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/toggle.js"></script>
+    <script src="https://kit.fontawesome.com/fc632b9fc3.js" crossorigin="anonymous"></script>
+    <script src="js/localization.js" defer></script>
+</body>
+</html>
